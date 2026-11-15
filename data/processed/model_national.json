@@ -1,0 +1,57 @@
+{
+  "method": "razon_px",
+  "x": "viirs_px",
+  "k": {
+    "todas": 0.20202282478331293
+  },
+  "nombre": "Razón simple, píxeles VIIRS",
+  "banda": {
+    "mensual": [
+      0.7413842363631937,
+      1.3471626794999134
+    ],
+    "anual": [
+      0.8709180806057204,
+      1.1092981983062071
+    ]
+  },
+  "metricas": [
+    {
+      "metodo": "razon_px",
+      "nombre": "Razón simple, píxeles VIIRS",
+      "mae_mensual": 16.74481388273136,
+      "error_anual_pct": 7.055604287815946,
+      "sesgo_pct": 0.012109122074707629,
+      "corr_mensual": 0.9545617181373861
+    },
+    {
+      "metodo": "razon_ev",
+      "nombre": "Razón simple, eventos VIIRS",
+      "mae_mensual": 20.146559010439347,
+      "error_anual_pct": 5.600895063291922,
+      "sesgo_pct": -0.026380073287649627,
+      "corr_mensual": 0.9331496141936119
+    },
+    {
+      "metodo": "razon_ev_temporada",
+      "nombre": "Razón por temporada, eventos VIIRS",
+      "mae_mensual": 20.549692002720032,
+      "error_anual_pct": 5.40482388151317,
+      "sesgo_pct": -0.11477728598790328,
+      "corr_mensual": 0.930554797189433
+    },
+    {
+      "metodo": "loglineal_ev_temporada",
+      "nombre": "Log-lineal por temporada, eventos VIIRS",
+      "mae_mensual": 27.76922632827342,
+      "error_anual_pct": 17.231976203778203,
+      "sesgo_pct": 7.183908510051396,
+      "corr_mensual": 0.9109948056109687
+    }
+  ],
+  "solapamiento": [
+    "2012-02-01",
+    "2026-08-01"
+  ],
+  "n_modis_solapamiento": 16339
+}

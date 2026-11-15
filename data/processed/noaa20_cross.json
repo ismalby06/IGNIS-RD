@@ -1,0 +1,12 @@
+{
+  "noaa20_filas": 70020,
+  "noaa20_limpios": 44427,
+  "noaa20_eventos": 31253,
+  "meses_comparados": 100,
+  "desde": "2018-04-01",
+  "hasta": "2026-07-01",
+  "correlacion_mensual": 0.9930718167228519,
+  "ratio_mediano_noaa20_snpp": 1.064244596502661,
+  "snpp_total": 29480,
+  "noaa20_total": 31253
+}

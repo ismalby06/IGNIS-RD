@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Streamlit secrets (si se usan)
+.streamlit/secrets.toml
+
+# Backups y archivos de prueba locales
+*.original.*
+clean_leaflet_map.html
+full_test_map.html
+test_map.html
+
+# Archivos temporales de caché (se regeneran solos)
+data/cache/basemap_tiles/
+data/cache/realtime_weather/
+data/cache/*.csv
+data/cache/power/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log

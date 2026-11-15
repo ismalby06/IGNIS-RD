@@ -1,0 +1,11 @@
+streamlit>=1.40
+plotly>=6.0
+pandas>=2.0
+numpy>=1.26
+scipy>=1.11
+pyarrow>=14
+requests>=2.31
+matplotlib>=3.8
+h3>=4.0
+scikit-learn>=1.4
+joblib>=1.3

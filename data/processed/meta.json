@@ -1,0 +1,26 @@
+{
+  "origen": "FIRMS API",
+  "creado": "2026-11-03T15:58:33",
+  "desde": "2000-11-01",
+  "hasta": "2026-08-01",
+  "limpieza": {
+    "MODIS": {
+      "inicial": 45734,
+      "tras_confianza": 43629,
+      "tras_tipo_firms": 33160,
+      "tras_recorte_rd": 30653,
+      "fuentes_persistentes": 0,
+      "final": 30653
+    },
+    "VIIRS": {
+      "inicial": 123740,
+      "tras_confianza": 114608,
+      "tras_tipo_firms": 106782,
+      "tras_recorte_rd": 94717,
+      "fuentes_persistentes": 811,
+      "final": 81089
+    }
+  },
+  "viirs_pixeles": 81089,
+  "viirs_eventos": 55917
+}

@@ -1,0 +1,58 @@
+{
+  "model_comparison": [
+    {
+      "modelo": "Línea Base Climatológica (Naive)",
+      "roc_auc": 0.7841,
+      "pr_auc": 0.632,
+      "brier_score": 0.1783,
+      "f1_score": 0.3873
+    },
+    {
+      "modelo": "Regresión Logística (L2 Regularized)",
+      "roc_auc": 0.7674,
+      "pr_auc": 0.5931,
+      "brier_score": 0.2762,
+      "f1_score": 0.5659
+    },
+    {
+      "modelo": "Random Forest (120 árboles)",
+      "roc_auc": 0.784,
+      "pr_auc": 0.6348,
+      "brier_score": 0.2405,
+      "f1_score": 0.5718
+    },
+    {
+      "modelo": "Gradient Boosting (HGB Trees)",
+      "roc_auc": 0.7996,
+      "pr_auc": 0.6599,
+      "brier_score": 0.2484,
+      "f1_score": 0.5789
+    }
+  ],
+  "feature_importances": {
+    "hist_fire_rate": 0.3523,
+    "recent_6m_fires": 0.2068,
+    "hist_mean_frp": 0.1361,
+    "fwi_proxy": 0.0598,
+    "isi": 0.0347,
+    "rh_pct": 0.0328,
+    "doy_sin": 0.0313,
+    "ffmc": 0.0304,
+    "month_num": 0.0286,
+    "cell_lon": 0.024,
+    "temp_c": 0.0206,
+    "cell_lat": 0.0195,
+    "doy_cos": 0.0113,
+    "wind_kmh": 0.0092,
+    "is_dry_season": 0.0025
+  },
+  "test_eval_period": "2023 - 2026",
+  "train_period": "2000 - 2018",
+  "val_period": "2019 - 2022",
+  "total_observations": 141825,
+  "test_observations": 18135,
+  "test_fires": 5644,
+  "champion": "Gradient Boosting (HGB Trees)",
+  "champion_roc_auc": 0.7996,
+  "champion_pr_auc": 0.6599
+}
