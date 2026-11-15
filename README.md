@@ -1,5 +1,7 @@
 # IGNIS-RD 🔥🛰️
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=ismalby06/IGNIS-RD&branch=main&mainModule=app.py)
+
 ### Sistema Predictivo de Incendios Forestales & Meteorología en Tiempo Real (NASA FIRMS + NASA POWER + Open-Meteo)
 
 Plataforma científica y operativa para República Dominicana y monitoreo global desarrollada para el **NASA Space Apps Challenge**.
