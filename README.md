@@ -1,8 +1,9 @@
-# FuegoRD 🔥🛰️
+# IGNIS-RD 🔥🛰️
 
-Calendario armonizado de quemas para República Dominicana a partir de focos de calor
-MODIS y VIIRS (NASA FIRMS). Proyecto para el **NASA Space Apps Challenge 2026**, reto
-*Harmonization of MODIS and VIIRS Hot Spots*.
+### Sistema Predictivo de Incendios Forestales & Meteorología en Tiempo Real (NASA FIRMS + NASA POWER + Open-Meteo)
+
+Plataforma científica y operativa para República Dominicana y monitoreo global desarrollada para el **NASA Space Apps Challenge**.
+Combina 26 años de observaciones satelitales armonizadas (MODIS y VIIRS de NASA FIRMS), climatología física reanalizada (NASA POWER), estaciones meteorológicas en tiempo real (Open-Meteo) y el cálculo matemático del Fire Weather Index (FWI) canadiense (Van Wagner 1987) para pronosticar focos de calor y riesgo de propagación.
 
 ## El problema en una línea
 
